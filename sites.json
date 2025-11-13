@@ -1,1 +1,865 @@
-
+ {
+    "name": "Craigslist",
+    "region": "Global/US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.craigslist.org",
+    "notes": "Local posting; manual; strict rules."
+  },
+  {
+    "name": "Facebook Marketplace",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.facebook.com/marketplace",
+    "notes": "High reach; FB account required."
+  },
+  {
+    "name": "Oodle",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.oodle.com",
+    "notes": "Aggregates local listings; login required."
+  },
+  {
+    "name": "Locanto",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.locanto.com",
+    "notes": "Many city-based pages; text + images."
+  },
+  {
+    "name": "ClassifiedAds",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.classifiedads.com",
+    "notes": "Free general classifieds."
+  },
+  {
+    "name": "Geebo",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.geebo.com",
+    "notes": "General classifieds; jobs, autos, services."
+  },
+  {
+    "name": "AdPost",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.adpost.com",
+    "notes": "Global ads; supports images & links."
+  },
+  {
+    "name": "DomesticSale",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.domesticsale.com",
+    "notes": "General US classifieds."
+  },
+  {
+    "name": "Recycler",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.recycler.com",
+    "notes": "General items & autos."
+  },
+  {
+    "name": "Bedpage",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.bedpage.com",
+    "notes": "Backpage-style network."
+  },
+  {
+    "name": "WallClassifieds",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.wallclassifieds.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "Advertise Era",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.advertiseera.com",
+    "notes": "General classifieds and ads."
+  },
+  {
+    "name": "USFreeAds",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.usfreeads.com",
+    "notes": "US general classifieds."
+  },
+  {
+    "name": "AmericanListed",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.americanlisted.com",
+    "notes": "General US classifieds."
+  },
+  {
+    "name": "FreeAdsTime",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.freeadstime.org",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "Classi4U",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.classi4u.com",
+    "notes": "General ads."
+  },
+  {
+    "name": "Kugli",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.kugli.com",
+    "notes": "General international classifieds."
+  },
+  {
+    "name": "BackPageAd",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.backpagead.com",
+    "notes": "Backpage-style posting."
+  },
+  {
+    "name": "AdsGlobe",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.adsglobe.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "FreeClassifiedsSite",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.freeclassifiedssite.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "ClassifiedsFactor",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.classifiedsfactor.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "USNetAds",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.usnetads.com",
+    "notes": "General US classifieds."
+  },
+  {
+    "name": "H1Ad",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.h1ad.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "GiganticList",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.giganticlist.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "Claz.org",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.claz.org",
+    "notes": "Aggregated classifieds network."
+  },
+  {
+    "name": "ClassifiedAds24x7",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.classifiedads24x7.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "MyFavoriteClassifieds",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.myfavoriteclassifieds.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "AskAds",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.askads.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "WebClassifieds",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.webclassifieds.us",
+    "notes": "US general classifieds."
+  },
+  {
+    "name": "FreeAdsList",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.freeadslist.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "AdSitePro",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.adsitepro.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "ClickBazaar",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.clickbazaar.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "GlobalFreeClassifiedAds",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.globalfreeclassifiedads.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "TopClassifieds",
+    "region": "Global",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.topclassifieds.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "ClassifiedAdsUSA",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.classifiedadsusa.com",
+    "notes": "US classifieds."
+  },
+  {
+    "name": "USA Online Classifieds",
+    "region": "US",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.usaonlineclassifieds.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "OfferUp",
+    "region": "US",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://offerup.com",
+    "notes": "Mobile-first local marketplace."
+  },
+  {
+    "name": "5Miles",
+    "region": "US",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://www.5miles.com",
+    "notes": "Local deals app."
+  },
+  {
+    "name": "VarageSale",
+    "region": "US",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://www.varagesale.com",
+    "notes": "Community yard-sale style app."
+  },
+  {
+    "name": "Nextdoor",
+    "region": "US/EU",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://www.nextdoor.com",
+    "notes": "Neighborhood marketplace."
+  },
+  {
+    "name": "Bookoo",
+    "region": "US",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://www.bookoo.com",
+    "notes": "Yard-sale style local marketplace."
+  },
+  {
+    "name": "Mercari",
+    "region": "US",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://www.mercari.com",
+    "notes": "Marketplace for goods."
+  },
+  {
+    "name": "Poshmark",
+    "region": "US",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://poshmark.com",
+    "notes": "Fashion-focused marketplace."
+  },
+  {
+    "name": "Letgo (via OfferUp)",
+    "region": "US",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://offerup.com",
+    "notes": "Letgo merged into OfferUp."
+  },
+  {
+    "name": "Facebook Groups (buy/sell)",
+    "region": "Global",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://www.facebook.com/groups",
+    "notes": "Use buy/sell or niche groups."
+  },
+  {
+    "name": "Carousell",
+    "region": "SE Asia",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://www.carousell.sg",
+    "notes": "SG & regional marketplace."
+  },
+  {
+    "name": "Wallapop",
+    "region": "Europe",
+    "category": "Local Apps",
+    "needs_account": true,
+    "url": "https://es.wallapop.com",
+    "notes": "Spain local marketplace."
+  },
+  {
+    "name": "OLX Brazil",
+    "region": "LATAM",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.com.br",
+    "notes": "Huge Brazilian classifieds."
+  },
+  {
+    "name": "OLX Mexico",
+    "region": "LATAM",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.com.mx",
+    "notes": "OLX Mexico (check routing)."
+  },
+  {
+    "name": "MercadoLibre",
+    "region": "LATAM",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.mercadolibre.com",
+    "notes": "Marketplace across LATAM."
+  },
+  {
+    "name": "Segundamano",
+    "region": "LATAM",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.segundamano.mx",
+    "notes": "Mexico classifieds."
+  },
+  {
+    "name": "OLX Argentina",
+    "region": "LATAM",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.com.ar",
+    "notes": "Argentina OLX."
+  },
+  {
+    "name": "OLX Colombia",
+    "region": "LATAM",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.com.co",
+    "notes": "Colombia OLX."
+  },
+  {
+    "name": "OLX Peru",
+    "region": "LATAM",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.com.pe",
+    "notes": "Peru OLX."
+  },
+  {
+    "name": "Yapo.cl",
+    "region": "LATAM",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.yapo.cl",
+    "notes": "Chile classifieds."
+  },
+  {
+    "name": "Vivanuncios",
+    "region": "LATAM",
+    "category": "Real Estate",
+    "needs_account": true,
+    "url": "https://www.vivanuncios.com.mx",
+    "notes": "Real estate & rentals in Mexico."
+  },
+  {
+    "name": "OLX India",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.in",
+    "notes": "India OLX."
+  },
+  {
+    "name": "Quikr",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.quikr.com",
+    "notes": "India classifieds."
+  },
+  {
+    "name": "ClickIndia",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.clickindia.com",
+    "notes": "India classifieds."
+  },
+  {
+    "name": "Sulekha",
+    "region": "SE Asia",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.sulekha.com",
+    "notes": "Service providers & local ads."
+  },
+  {
+    "name": "IndiaList",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.indialist.com",
+    "notes": "General classifieds."
+  },
+  {
+    "name": "Khojle",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.khojle.in",
+    "notes": "General classifieds India."
+  },
+  {
+    "name": "TuffClassified",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.tuffclassified.com",
+    "notes": "General classifieds India."
+  },
+  {
+    "name": "Locanto India",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.locanto.in",
+    "notes": "India segment of Locanto."
+  },
+  {
+    "name": "OLX Pakistan",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.com.pk",
+    "notes": "Pakistan classifieds."
+  },
+  {
+    "name": "DealMarkaz",
+    "region": "SE Asia",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.dealmarkaz.pk",
+    "notes": "Pakistan classifieds."
+  },
+  {
+    "name": "Avito.ma",
+    "region": "MENA",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.avito.ma",
+    "notes": "Morocco classifieds."
+  },
+  {
+    "name": "OLX Egypt",
+    "region": "MENA",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.com.eg",
+    "notes": "Egypt classifieds."
+  },
+  {
+    "name": "OLX UAE",
+    "region": "MENA",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.ae",
+    "notes": "UAE classifieds."
+  },
+  {
+    "name": "OLX Saudi Arabia",
+    "region": "MENA",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.com.sa",
+    "notes": "KSA classifieds (routing dependent)."
+  },
+  {
+    "name": "SaudiAds",
+    "region": "MENA",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.saudiads.com",
+    "notes": "Saudi Arabia classifieds."
+  },
+  {
+    "name": "Dubizzle",
+    "region": "MENA",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.dubizzle.com",
+    "notes": "UAE & regional classifieds."
+  },
+  {
+    "name": "OpenSooq",
+    "region": "MENA",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://opensooq.com",
+    "notes": "MENA-wide marketplace."
+  },
+  {
+    "name": "Gumtree (UK)",
+    "region": "Europe",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.gumtree.com",
+    "notes": "UK general classifieds."
+  },
+  {
+    "name": "FreeAds UK",
+    "region": "Europe",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.freeads.co.uk",
+    "notes": "UK general classifieds."
+  },
+  {
+    "name": "Friday-Ad (UK)",
+    "region": "Europe",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.friday-ad.co.uk",
+    "notes": "UK local ads."
+  },
+  {
+    "name": "AdTrader (UK)",
+    "region": "Europe",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.adtrader.co.uk",
+    "notes": "UK classifieds."
+  },
+  {
+    "name": "Leboncoin",
+    "region": "Europe",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.leboncoin.fr",
+    "notes": "France classifieds."
+  },
+  {
+    "name": "Subito",
+    "region": "Europe",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.subito.it",
+    "notes": "Italy classifieds."
+  },
+  {
+    "name": "Marktplaats",
+    "region": "Europe",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.marktplaats.nl",
+    "notes": "Netherlands classifieds."
+  },
+  {
+    "name": "Milanuncios",
+    "region": "Europe",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.milanuncios.com",
+    "notes": "Spain classifieds."
+  },
+  {
+    "name": "Kijiji (CA)",
+    "region": "North America",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.kijiji.ca",
+    "notes": "Canada classifieds."
+  },
+  {
+    "name": "Kijiji Autos (CA)",
+    "region": "North America",
+    "category": "Real Estate",
+    "needs_account": true,
+    "url": "https://www.kijijiautos.ca",
+    "notes": "Autos & vehicles."
+  },
+  {
+    "name": "OLX South Africa",
+    "region": "Africa",
+    "category": "General",
+    "needs_account": true,
+    "url": "https://www.olx.co.za",
+    "notes": "South Africa classifieds."
+  },
+  {
+    "name": "Thumbtack",
+    "region": "US",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.thumbtack.com",
+    "notes": "Find clients for services."
+  },
+  {
+    "name": "Angi (Angie’s List)",
+    "region": "US",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.angi.com",
+    "notes": "Home services directory."
+  },
+  {
+    "name": "Bark",
+    "region": "US/EU",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.bark.com",
+    "notes": "Service leads."
+  },
+  {
+    "name": "HomeAdvisor",
+    "region": "US",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.homeadvisor.com",
+    "notes": "Home services & contractors."
+  },
+  {
+    "name": "Porch",
+    "region": "US",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.porch.com",
+    "notes": "Home services lead gen."
+  },
+  {
+    "name": "Houzz",
+    "region": "US/EU",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.houzz.com",
+    "notes": "Home improvement pros."
+  },
+  {
+    "name": "Guru",
+    "region": "Global",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.guru.com",
+    "notes": "Freelancer marketplace."
+  },
+  {
+    "name": "Freelancer",
+    "region": "Global",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.freelancer.com",
+    "notes": "Freelancer marketplace."
+  },
+  {
+    "name": "Upwork",
+    "region": "Global",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.upwork.com",
+    "notes": "Freelancer marketplace."
+  },
+  {
+    "name": "Fiverr",
+    "region": "Global",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.fiverr.com",
+    "notes": "Micro-services."
+  },
+  {
+    "name": "PeoplePerHour",
+    "region": "Global",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.peopleperhour.com",
+    "notes": "Freelancer marketplace."
+  },
+  {
+    "name": "TaskRabbit",
+    "region": "US",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.taskrabbit.com",
+    "notes": "Local gigs."
+  },
+  {
+    "name": "Zaarly",
+    "region": "US",
+    "category": "Services",
+    "needs_account": true,
+    "url": "https://www.zaarly.com",
+    "notes": "Local service pros."
+  },
+  {
+    "name": "Zillow",
+    "region": "US",
+    "category": "Real Estate",
+    "needs_account": true,
+    "url": "https://www.zillow.com",
+    "notes": "Real estate & rentals."
+  },
+  {
+    "name": "Trulia",
+    "region": "US",
+    "category": "Real Estate",
+    "needs_account": true,
+    "url": "https://www.trulia.com",
+    "notes": "Real estate & rentals."
+  },
+  {
+    "name": "Realtor.com",
+    "region": "US",
+    "category": "Real Estate",
+    "needs_account": true,
+    "url": "https://www.realtor.com",
+    "notes": "Properties & leads."
+  },
+  {
+    "name": "ApartmentGuide",
+    "region": "US",
+    "category": "Real Estate",
+    "needs_account": true,
+    "url": "https://www.apartmentguide.com",
+    "notes": "Apartments & rentals."
+  },
+  {
+    "name": "PetClassifieds",
+    "region": "US",
+    "category": "Pets",
+    "needs_account": true,
+    "url": "https://www.petclassifieds.us",
+    "notes": "Pet sales & adoption."
+  },
+  {
+    "name": "PuppyFind",
+    "region": "US",
+    "category": "Pets",
+    "needs_account": true,
+    "url": "https://www.puppyfind.com",
+    "notes": "Puppies & dogs."
+  },
+  {
+    "name": "Hoobly Pets",
+    "region": "US",
+    "category": "Pets",
+    "needs_account": true,
+    "url": "https://www.hoobly.com",
+    "notes": "Pets section is popular."
+  },
+  {
+    "name": "PostJobFree",
+    "region": "Global",
+    "category": "Jobs",
+    "needs_account": true,
+    "url": "https://www.postjobfree.com",
+    "notes": "Free job postings."
+  },
+  {
+    "name": "Indeed (Employer)",
+    "region": "Global",
+    "category": "Jobs",
+    "needs_account": true,
+    "url": "https://www.indeed.com/hire",
+    "notes": "Job ads; some free slots."
+  },
+  {
+    "name": "Glassdoor (Employer)",
+    "region": "Global",
+    "category": "Jobs",
+    "needs_account": true,
+    "url": "https://www.glassdoor.com/employers/",
+    "notes": "Employer job postings."
+  },
+  {
+    "name": "ZipRecruiter (Trial)",
+    "region": "US",
+    "category": "Jobs",
+    "needs_account": true,
+    "url": "https://www.ziprecruiter.com",
+    "notes": "Free trial for job ads."
+  }
+]
