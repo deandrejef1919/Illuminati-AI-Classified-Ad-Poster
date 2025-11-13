@@ -150,7 +150,11 @@ def analyze_copy_score(text: str) -> Dict[str, float]:
     emotion = min(sum(1 for k in EMO_TRIGGERS if k in t)/10,1)*100
     structure = min(sum(1 for k in ["attention","interest","desire","action","problem","agitate","solution","guarantee","bonus"] if k in t)/6,1)*100
     cta = min(sum(1 for k in CTA_PHRASES if k in t)/3,1)*100
-    specificity = min(sum(bool(re.search(r"\d|\$|\d+%", text))) + sum(1 for k in ["day","days","week","weeks","month","months"] if k in t), 5)/5*100
+    specificity = min(
+        sum(bool(re.search(r"\d|\$|\d+%", text)))
+        + sum(1 for k in ["day","days","week","weeks","month","months"] if k in t),
+        5
+    )/5*100
     score = round(0.2*length + 0.25*emotion + 0.2*structure + 0.15*cta + 0.2*specificity,1)
     return {
         "Score":score,
@@ -251,7 +255,7 @@ def admin_login_page():
             if valid_user and valid_pass:
                 st.session_state["admin_authenticated"] = True
                 st.success("Access granted. Loading your War Room...")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Access denied. Check your credentials.")
 
@@ -285,7 +289,7 @@ with st.sidebar:
 
         if st.button("🔓 Log out"):
             st.session_state["admin_authenticated"] = False
-            st.experimental_rerun()
+            st.rerun()
 
 # ---------- If Not Logged In: Show Admin Login ----------
 if not st.session_state["admin_authenticated"]:
@@ -600,5 +604,6 @@ elif page == "Settings":
     st.markdown("Use webhooks to trigger **your own** flows/tools (e.g., log to Sheets, notify VA, queue tasks).")
 
     render_footer()
+
 
 
